@@ -1,0 +1,26 @@
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: black;
+
+  .image {
+    padding: .5rem;
+    margin: auto;
+    max-height: 20rem;
+  }
+
+  .loading {
+    position: absolute;
+    top: calc(50% - 5rem);
+    left: calc(50% - 5rem);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+    background-image: url('../images/gallery/loading.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
